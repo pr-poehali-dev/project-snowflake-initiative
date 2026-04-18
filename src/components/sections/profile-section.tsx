@@ -4,7 +4,7 @@ import Icon from "@/components/ui/icon"
 export function ProfileSection() {
   return (
     <motion.section
-      className="flex flex-col items-center justify-center py-16 px-6"
+      className="flex flex-col items-center justify-center py-8 px-6"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
