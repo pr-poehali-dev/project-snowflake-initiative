@@ -7,19 +7,19 @@ const showcaseItems = [
     title: "Свадебный фильм",
     category: "Свадьба",
     thumbnail: "/fashion-model-editorial-portrait-dramatic-lighting.jpg",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://drive.google.com/file/d/1aMbOGw-bCyQtROYx7Itd_AgQ7a6MOBwo/preview",
   },
   {
     title: "Рекламный ролик",
     category: "Реклама",
     thumbnail: "/modern-architecture-building-exterior-minimal.jpg",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://drive.google.com/file/d/1IaYiavUWRF5qWkv4ZoR1-3WzfdsLZA5p/preview",
   },
   {
     title: "Музыкальный клип",
     category: "Клип",
     thumbnail: "/interior-design-minimalist-living-room-natural-lig.jpg",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://drive.google.com/file/d/1Pb5cSDqXJHlsmDjlO6LP3PLg5KA07yhD/preview",
   },
 ]
 
@@ -108,7 +108,7 @@ export function ShowcaseSection() {
             onClick={(e) => e.stopPropagation()}
           >
             <iframe
-              src={showcaseItems[activeVideo].videoUrl + "?autoplay=1"}
+              src={showcaseItems[activeVideo].videoUrl}
               className="w-full h-full"
               allow="autoplay; fullscreen"
               allowFullScreen
