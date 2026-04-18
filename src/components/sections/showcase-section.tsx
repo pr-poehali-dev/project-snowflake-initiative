@@ -6,19 +6,19 @@ const showcaseItems = [
   {
     title: "Perm Auto Weekend",
     category: "Клип",
-    thumbnail: "https://drive.google.com/thumbnail?id=1Pb5cSDqXJHlsmDjlO6LP3PLg5KA07yhD&sz=w1280",
+    thumbnail: "https://cdn.poehali.dev/projects/c489c707-296a-446a-99c1-56aa311862c1/bucket/b6cb90ae-848c-4545-8144-928ba10358a8.png",
     videoUrl: "https://drive.google.com/file/d/1Pb5cSDqXJHlsmDjlO6LP3PLg5KA07yhD/preview",
   },
   {
     title: "Профессии. Механик",
     category: "Реклама",
-    thumbnail: "https://drive.google.com/thumbnail?id=1IaYiavUWRF5qWkv4ZoR1-3WzfdsLZA5p&sz=w1280",
+    thumbnail: "https://cdn.poehali.dev/projects/c489c707-296a-446a-99c1-56aa311862c1/bucket/5a521e24-a754-4829-803a-d951c42d8088.png",
     videoUrl: "https://drive.google.com/file/d/1IaYiavUWRF5qWkv4ZoR1-3WzfdsLZA5p/preview",
   },
   {
     title: "Неизвестное об известном",
     category: "Свадьба",
-    thumbnail: "https://drive.google.com/thumbnail?id=1aMbOGw-bCyQtROYx7Itd_AgQ7a6MOBwo&sz=w1280",
+    thumbnail: "https://cdn.poehali.dev/projects/c489c707-296a-446a-99c1-56aa311862c1/bucket/b104a8c6-5747-44d1-ae7a-c16f10964802.png",
     videoUrl: "https://drive.google.com/file/d/1aMbOGw-bCyQtROYx7Itd_AgQ7a6MOBwo/preview",
   },
 ]
