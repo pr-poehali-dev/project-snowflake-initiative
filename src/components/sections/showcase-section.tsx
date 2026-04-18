@@ -6,19 +6,19 @@ const showcaseItems = [
   {
     title: "Свадебный фильм",
     category: "Свадьба",
-    thumbnail: "/fashion-model-editorial-portrait-dramatic-lighting.jpg",
+    thumbnail: "https://drive.google.com/thumbnail?id=1aMbOGw-bCyQtROYx7Itd_AgQ7a6MOBwo&sz=w1280",
     videoUrl: "https://drive.google.com/file/d/1aMbOGw-bCyQtROYx7Itd_AgQ7a6MOBwo/preview",
   },
   {
     title: "Рекламный ролик",
     category: "Реклама",
-    thumbnail: "/modern-architecture-building-exterior-minimal.jpg",
+    thumbnail: "https://drive.google.com/thumbnail?id=1IaYiavUWRF5qWkv4ZoR1-3WzfdsLZA5p&sz=w1280",
     videoUrl: "https://drive.google.com/file/d/1IaYiavUWRF5qWkv4ZoR1-3WzfdsLZA5p/preview",
   },
   {
     title: "Музыкальный клип",
     category: "Клип",
-    thumbnail: "/interior-design-minimalist-living-room-natural-lig.jpg",
+    thumbnail: "https://drive.google.com/thumbnail?id=1Pb5cSDqXJHlsmDjlO6LP3PLg5KA07yhD&sz=w1280",
     videoUrl: "https://drive.google.com/file/d/1Pb5cSDqXJHlsmDjlO6LP3PLg5KA07yhD/preview",
   },
 ]
