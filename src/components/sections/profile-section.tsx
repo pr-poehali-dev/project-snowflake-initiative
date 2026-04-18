@@ -15,7 +15,7 @@ export function ProfileSection() {
       </div>
 
       <h2 className="font-serif text-2xl text-foreground mb-1">Федор</h2>
-      <p className="text-sm text-muted-foreground mb-6">Видеограф и монтажёр</p>
+      <p className="text-sm text-muted-foreground mb-6">Видеограф, монтажер</p>
 
       <a
         href="https://t.me/risecoree"
