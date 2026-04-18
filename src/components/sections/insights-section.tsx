@@ -3,26 +3,26 @@ import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { ArrowRight } from "lucide-react"
 
-const articles = [
+const projects = [
   {
-    title: "Искусство визуального сторителлинга",
-    category: "Дизайн",
-    image: "/visual-storytelling-design-article.jpg",
+    title: "Свадьба Алины и Дмитрия",
+    category: "Свадебная съёмка",
+    image: "/fashion-model-editorial-portrait-dramatic-lighting.jpg",
   },
   {
-    title: "Как создать личный бренд онлайн",
-    category: "Стратегия",
-    image: "/personal-branding-digital-marketing.jpg",
+    title: "Рекламный ролик для кофейни",
+    category: "Реклама",
+    image: "/modern-architecture-building-exterior-minimal.jpg",
   },
   {
-    title: "Тренды типографики 2025",
-    category: "Типографика",
-    image: "/typography-trends-modern-fonts.jpg",
+    title: "Клип группы «Северное сияние»",
+    category: "Музыкальный клип",
+    image: "/interior-design-minimalist-living-room-natural-lig.jpg",
   },
   {
-    title: "Минимализм в дизайне портфолио",
-    category: "Вдохновение",
-    image: "/placeholder.svg?height=200&width=300",
+    title: "Корпоративный фильм о компании",
+    category: "Корпоратив",
+    image: "/photography-portfolio-website-clean.jpg",
   },
 ]
 
@@ -43,11 +43,11 @@ export function InsightsSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Статьи
+          Проекты
         </motion.p>
 
         <div className="divide-y divide-border">
-          {articles.map((article, i) => (
+          {projects.map((project, i) => (
             <motion.a
               key={i}
               href="#"
@@ -62,9 +62,9 @@ export function InsightsSection() {
               data-clickable
             >
               <div className="flex-1">
-                <span className="text-xs text-muted-foreground uppercase tracking-wider">{article.category}</span>
+                <span className="text-xs text-muted-foreground uppercase tracking-wider">{project.category}</span>
                 <h3 className="font-serif text-xl md:text-2xl text-foreground mt-1 group-hover:text-primary transition-colors">
-                  {article.title}
+                  {project.title}
                 </h3>
               </div>
               <ArrowRight className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all" />
@@ -88,8 +88,8 @@ export function InsightsSection() {
               transition={{ duration: 0.2 }}
             >
               <img
-                src={articles[hoveredIndex].image || "/placeholder.svg"}
-                alt={articles[hoveredIndex].title}
+                src={projects[hoveredIndex].image || "/placeholder.svg"}
+                alt={projects[hoveredIndex].title}
                 className="w-full h-auto"
               />
             </motion.div>
