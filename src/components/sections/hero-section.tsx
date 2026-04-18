@@ -17,19 +17,19 @@ export function HeroSection() {
   const rotate1 = useTransform(scrollYProgress, [0, 1], [0, -15])
   const rotate2 = useTransform(scrollYProgress, [0, 1], [0, 0])
   const rotate3 = useTransform(scrollYProgress, [0, 1], [0, 15])
-  const x1 = useTransform(scrollYProgress, [0, 1], [0, -200])
-  const x3 = useTransform(scrollYProgress, [0, 1], [0, 200])
+  const x1 = useTransform(scrollYProgress, [0, 1], [0, -67])
+  const x3 = useTransform(scrollYProgress, [0, 1], [0, 67])
   const y = useTransform(scrollYProgress, [0, 1], [0, 100])
 
   return (
     <section
       ref={containerRef}
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background px-6 py-24"
+      className="relative flex items-center justify-center overflow-hidden bg-background px-6 py-8"
     >
       {/* Stacked images */}
       <div className="relative flex items-center justify-center">
         <motion.div
-          className="absolute w-[280px] md:w-[320px] aspect-[3/4] rounded-xl overflow-hidden shadow-2xl"
+          className="absolute w-[90px] md:w-[107px] aspect-[3/4] rounded-xl overflow-hidden shadow-2xl"
           style={{ rotate: rotate1, x: x1, y, zIndex: 1 }}
           initial={{ clipPath: "inset(100% 0 0 0)" }}
           animate={{ clipPath: "inset(0 0 0 0)" }}
@@ -43,7 +43,7 @@ export function HeroSection() {
         </motion.div>
 
         <motion.div
-          className="relative w-[280px] md:w-[320px] aspect-[3/4] rounded-xl overflow-hidden shadow-2xl"
+          className="relative w-[90px] md:w-[107px] aspect-[3/4] rounded-xl overflow-hidden shadow-2xl"
           style={{ rotate: rotate2, y, zIndex: 2 }}
           initial={{ clipPath: "inset(100% 0 0 0)" }}
           animate={{ clipPath: "inset(0 0 0 0)" }}
@@ -57,7 +57,7 @@ export function HeroSection() {
         </motion.div>
 
         <motion.div
-          className="absolute w-[280px] md:w-[320px] aspect-[3/4] rounded-xl overflow-hidden shadow-2xl"
+          className="absolute w-[90px] md:w-[107px] aspect-[3/4] rounded-xl overflow-hidden shadow-2xl"
           style={{ rotate: rotate3, x: x3, y, zIndex: 1 }}
           initial={{ clipPath: "inset(100% 0 0 0)" }}
           animate={{ clipPath: "inset(0 0 0 0)" }}
@@ -77,10 +77,10 @@ export function HeroSection() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.8 }}
       >
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-center text-foreground mix-blend-difference">
+        <h1 className="text-xl md:text-2xl lg:text-3xl font-serif text-center text-foreground mix-blend-difference">
           Каждый кадр — <em className="italic">история</em>.
         </h1>
-        <p className="text-lg md:text-xl text-foreground/70 mix-blend-difference text-center max-w-md mt-2">
+        <p className="text-sm md:text-base text-foreground/70 mix-blend-difference text-center max-w-md mt-1">
           Видеограф и монтажёр. Создаю видео, которые запоминаются.
         </p>
       </motion.div>
