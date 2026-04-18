@@ -8,30 +8,30 @@
   :root {
     /* Folio Lilac & Ink Theme */
     --background: 270 47% 16%;
-    --foreground: 270 63% 6%;
-    --surface: 270 20% 96%;
-    --ink: 270 63% 6%;
-    --iris: 263 70% 42%;
+    --foreground: 270 60% 95%;
+    --surface: 270 30% 22%;
+    --ink: 270 60% 95%;
+    --iris: 263 70% 72%;
     --lilac: 270 89% 85%;
     --lime: 82 85% 80%;
-    --muted-foreground: 270 8% 43%;
+    --muted-foreground: 270 20% 65%;
 
-    --card: 270 20% 96%;
-    --card-foreground: 270 63% 6%;
-    --popover: 270 20% 99%;
-    --popover-foreground: 270 63% 6%;
-    --primary: 263 70% 42%;
-    --primary-foreground: 270 20% 99%;
-    --secondary: 270 20% 96%;
-    --secondary-foreground: 270 63% 6%;
-    --muted: 270 20% 96%;
+    --card: 270 35% 20%;
+    --card-foreground: 270 60% 95%;
+    --popover: 270 40% 18%;
+    --popover-foreground: 270 60% 95%;
+    --primary: 263 70% 72%;
+    --primary-foreground: 270 47% 10%;
+    --secondary: 270 30% 22%;
+    --secondary-foreground: 270 60% 95%;
+    --muted: 270 30% 22%;
     --accent: 270 89% 85%;
-    --accent-foreground: 270 63% 6%;
+    --accent-foreground: 270 47% 10%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
-    --border: 270 15% 92%;
-    --input: 270 15% 92%;
-    --ring: 263 70% 42%;
+    --border: 270 30% 28%;
+    --input: 270 30% 28%;
+    --ring: 263 70% 72%;
 
     --radius: 0.75rem;
 
