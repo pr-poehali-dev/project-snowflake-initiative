@@ -14,7 +14,7 @@ export function ProfileSection() {
         <Icon name="User" size={40} className="text-muted-foreground" />
       </div>
 
-      <h2 className="font-serif text-2xl text-foreground mb-1">Имя Фамилия</h2>
+      <h2 className="font-serif text-2xl text-foreground mb-1">Федор</h2>
       <p className="text-sm text-muted-foreground mb-6">Видеограф и монтажёр</p>
 
       <a
