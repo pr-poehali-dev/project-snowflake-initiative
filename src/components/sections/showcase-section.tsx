@@ -4,19 +4,19 @@ import Icon from "@/components/ui/icon"
 
 const showcaseItems = [
   {
-    title: "Свадебный фильм",
+    title: "Неизвестное об известном",
     category: "Свадьба",
     thumbnail: "https://drive.google.com/thumbnail?id=1aMbOGw-bCyQtROYx7Itd_AgQ7a6MOBwo&sz=w1280",
     videoUrl: "https://drive.google.com/file/d/1aMbOGw-bCyQtROYx7Itd_AgQ7a6MOBwo/preview",
   },
   {
-    title: "Рекламный ролик",
+    title: "Профессии. Механик",
     category: "Реклама",
     thumbnail: "https://drive.google.com/thumbnail?id=1IaYiavUWRF5qWkv4ZoR1-3WzfdsLZA5p&sz=w1280",
     videoUrl: "https://drive.google.com/file/d/1IaYiavUWRF5qWkv4ZoR1-3WzfdsLZA5p/preview",
   },
   {
-    title: "Музыкальный клип",
+    title: "Perm Auto Weekend",
     category: "Клип",
     thumbnail: "https://drive.google.com/thumbnail?id=1Pb5cSDqXJHlsmDjlO6LP3PLg5KA07yhD&sz=w1280",
     videoUrl: "https://drive.google.com/file/d/1Pb5cSDqXJHlsmDjlO6LP3PLg5KA07yhD/preview",
