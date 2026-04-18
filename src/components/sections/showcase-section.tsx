@@ -84,8 +84,7 @@ export function ShowcaseSection() {
 
               {/* Label */}
               <div className="absolute bottom-0 left-0 right-0 p-6">
-                <span className="text-xs text-white/60 uppercase tracking-widest">{item.category}</span>
-                <h3 className="font-serif text-xl text-white mt-1">{item.title}</h3>
+                <h3 className="font-serif text-xl text-white">{item.title}</h3>
               </div>
             </motion.div>
           ))}
